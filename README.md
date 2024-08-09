@@ -1,8 +1,9 @@
-# # Windows Cleaning, Fixing, and Customizing Scripts Collection
+# Windows Cleaning, Fixing, and Customizing Scripts Collection
+Forked from [Windows-Cleaner](https://github.com/markulie/Windows-Cleaner)
 
-![GitHub repo size](https://img.shields.io/github/repo-size/markulie/Windows-Cleaner)
-![GitHub stars](https://img.shields.io/github/stars/markulie/Windows-Cleaner?style=social)
-![GitHub forks](https://img.shields.io/github/forks/markulie/Windows-Cleaner?style=social)
+![GitHub repo size](https://img.shields.io/github/repo-size/usiqwerty/wincleaner)
+![GitHub stars](https://img.shields.io/github/stars/usiqwerty/wincleaner?style=social)
+![GitHub forks](https://img.shields.io/github/forks/usiqwerty/wincleaner?style=social)
 
 Welcome to the **Windows Cleaning, Fixing, and Customizing Scripts Collection** repository! This repository is a curated compilation of scripts and tools designed to help you clean, fix, and customize your Windows operating system. Whether you're a computer enthusiast, power user, or just someone looking to optimize their Windows experience, this collection has got you covered.
 
@@ -35,7 +36,7 @@ As Windows users, we often encounter various performance issues, clutter, and cu
 1. **Clone the Repository:** Start by cloning this repository to your local machine using the following command:
    
    ```bash
-   git clone https://github.com/markulie/Windows-Cleaner.git
+   git clone https://github.com/usiqwerty/wincleaner.git
    ```
 
 2. **Navigate to Categories:** The repository is organized into folders based on script categories. Browse through the categories to find the scripts that address your needs.
@@ -64,6 +65,7 @@ Authors in this collection include:
 
 **markulie**
 
+**usiqwerty**
 
 ## License
 
