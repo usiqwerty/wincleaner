@@ -1,8 +1,9 @@
 #Requires -RunAsAdministrator
-# & $PSScriptRoot\services\Disable-Services.ps1
-# & $PSScriptRoot\services\Disable-Services-ToManual.ps1
-# & $PSScriptRoot\telemetry\Disable-Domains-Telemetry-via-Host.ps1
-# & $PSScriptRoot\apps\Disable-OneDrive-Integration.ps1
-Get-ChildItem $PSScriptRoot\apps\ | ForEach-Object {
+Write-Output "wincleaner v1.0"
+$folders = @('services', 'privacy', 'telemetry', 'apps')
+
+foreach ($folder in $folders){
+  Get-ChildItem $PSScriptRoot\$folder\ | ForEach-Object {
     & $_.FullName
   }
+}
